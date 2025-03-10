@@ -33,7 +33,6 @@ export function Post({ author, content, publishedAt }) {
   }
 
   function deleteComment(comment) {
-    console.log('Deletar comentario', comment);
     setComments(comments.filter((c) => c !== comment));
   }
 
